@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Alemendra';
+    src:  url('fonts/AlmendraDisplay-Regular.ttf') format('ttf'),
+  }
+
+  @font-face {
+    font-family: 'Gulax';
+    src:  url('fonts/Gulax-Regular.eot') format('eot'),
+  }
+
+
+
+body{
+    background-color: red;
+    font-family: 'Gulax', cursive;
+    text-transform: uppercase;
+}
+
+
+button{
+    font-family: 'Gulax', cursive;
+    background-color: Transparent;
+    border: orange;
+    color: orange;
+}
+
+p{
+    border: orange;
+    border-style: solid;
+    color: orange;
+}
+
+#everyrosehasathorn{
+    width:350px;
+    position: absolute;
+    color: orange;
+    top: 20%;
+    left: 60%;
+}
+
+#div1{
+    font-family: 'Goldman', cursive;
+    color:darkblue;
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    width: 30%;
+}
+#talkbutton{
+    display: none;
+}
+
+
+   
+   
+
+
+
+
+

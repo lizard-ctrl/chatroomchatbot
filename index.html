@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title>chatbot1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript" src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.min.js"></script>
+   <script type="text/javascript" src="sketch.js"></script>
+  
+  
+
+    
+<div id="everyrosehasathorn">
+  <pre>
+         .      .'
+         :`...' `.,'  ' 
+     `.  ' .**.  ; ; ':
+     ` ``:`****,'  .' :
+   ..::.  ``**":.''   `.
+  .:    `: ; `,'        :
+    `:    `   :         ;
+      :   :   :        ;
+      :    :   :     .:
+     :    :   :..,'  ``::.
+     `....:..'  ..:;''
+      .:   . ...::::
+    ,'''''``:::::::
+           `::::
+             `::.
+              `::
+       . ,.    ::::'      ,.. 
+     .'.'  ``.  ::      .'.. `.
+    '        .: ::    ,'.'     .
+  .' ,'    .::::::   ,.'    .:::.
+.' .'  ..:'     ::: .,   .;'     ~
+,;::;.::''        ::.:..::'
+~                ::;'
+                 ::
+               ,:::
+                 ::.
+                 `::
+                  ::
+                  ::
+                  ::
+                  ::
+                  ::                 
+  </pre>
+</div>
+
+
+
+
+
+    <div id="div1">
+ <div id="one"></div>
+	<p>
+	<span id="output"></span>
+  </p>
+  <p>
+		ENGAGE <input id="myText"/>
+		<button onclick="message()">enter</button>
+	</p>
+</div>
+
+
+      <br>
+      <br>
+      <br>
+
+
+  <script>
+      var i = 0;
+var txt = 'I just recently broke up with my crazy ex blegHHHHHHH!!!!! She really messed with my poor little heart and now I don’t know if I can ever truly love or trust anyone again. I’m on here looking for a good time and NOTHING ELSE, no strings attached + no EMOTIONS please. Some quick info about me, I’ve never been to therapy, I love making beats, and my favorite drink is a locally sourced IPA! Sorry if I interrupt you I’ve been told I talk too much. If this all gets you going start a conversation with me.';
+var speed = 50;
+      
+function typeWriter() {
+  if (i < txt.length) {
+      document.getElementById("info").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+        }  
+    }
+function info(){
+     typeWriter();
+}
+
+function f() {
+  var t = document.getElementById("input").value;
+  document.getElementById("outputtext").innerHTML = "user: " + t;
+}
+
+
+  </script>
+
+
+  </body>
+
+</html>
